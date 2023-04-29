@@ -15,7 +15,7 @@ public class HelloController {
 	
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam("message") String message, Model model) {
-		model.addAttribut("sample", message);
+		model.addAttribute("sample", message);
 		
 		return "hello";
 	}
