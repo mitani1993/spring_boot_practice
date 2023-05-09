@@ -10,6 +10,7 @@ import lombok.Setter;
 @Setter
 @Entity
 public class Book {
+	
     @Id
     @GeneratedValue
     private Long id;
