@@ -36,7 +36,7 @@ public class CommentController {
 		repository.save(comment);
 		
 		// ルートパス("/")にリダイレクト
-		return "redurect:/";
+		return "redirect:/";
 	}
 
 }
