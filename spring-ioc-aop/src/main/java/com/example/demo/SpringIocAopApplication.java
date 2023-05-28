@@ -19,7 +19,7 @@ public class SpringIocAopApplication implements ApplicationRunner {
 		SpringApplication.run(SpringIocAopApplication.class, args);
 	}
 	
-	@Orverride
+	@Override
 	public void run (ApplicationArguments args) {
 		var allBeanNames = appContext.getBeanDefinitionNames();
 		for (var beanName: allBeanNames) {
